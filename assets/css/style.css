@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+
+  font-family: sans-serif;
+}
+
+.nav {
+  margin-bottom: 50px;
+}
+
+.nav-list {
+  color: white;
+  font-size: 0;
+}
+
+.nav-item {
+  display: inline-block;
+
+  background-color: #47986d;
+  border: 2px solid #3c805b;
+
+  font-size: 17px;
+
+  position: relative;
+}
+
+/* Убрать суммирование бордеров, 2px вместо 4px */
+.marg-left {
+  margin-left: -2px;
+}
+
+.nav-link {
+  display: inline-block;
+
+  text-decoration: none;
+  color: inherit;
+
+  padding: 20px 50px;
+
+  width: 100%;
+}
+
+.sub-nav-list {
+  display: none;
+
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  right: 0px;
+
+  /* Сровнять ширину пункта меню и его выпадающего элемента */
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.sub-nav-item {
+  display: block;
+
+  text-align: center;
+}
+
+/* Убрать суммирование бордеров, 2px вместо 4px */
+.marg-top {
+  margin-top: -2px;
+}
+
+.second-nav-list {
+  display: none;
+
+  position: absolute;
+
+  top: -2px;
+  left: 100%;
+}
+
+.second-nav-item {
+  width: 100%;
+}
+
+/* js classes */
+
+.darkGreen {
+  background-color: #3c805b;
+}
+
+.display {
+  display: inline-block;
+}
