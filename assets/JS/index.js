@@ -3,7 +3,7 @@
 const navList = document.querySelector('.nav-list');
 const subNavList = document.querySelector('.sub-nav-list');
 
-function linkClick(event) {
+function linkClick() {
     this.classList.add('darkGreen');
     this.children[1].classList.add('display');
 }
